@@ -1,5 +1,5 @@
 pipeline {
-	agent {  label 'dev1-lb' }
+	agent any
 	stages {
 		stage('---clean---'){
 			tools {
